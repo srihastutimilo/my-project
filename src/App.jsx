@@ -1,10 +1,19 @@
 import './App.css'
+import ShoppingCart from './pages/DaftarBelanja'
+import ExamScoreCalculator from './pages/FormNilai'
+import MonthlySalesChart from './pages/Grafik'
+import ProductInputForm from './pages/InputProduct'
+import ProductManager from './pages/Product'
 
 function App(){
   return(
-    <h1 class="text-3xl font-bold underline">
-    Hello world!
-  </h1>
+    <>
+      <ProductManager />
+      <ProductInputForm />
+      <ShoppingCart />
+      <ExamScoreCalculator/>
+      <MonthlySalesChart/>
+    </>
   )
 }
 
